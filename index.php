@@ -78,12 +78,12 @@ $person = empty($_POST['person']) ||
 		will conveniently validate the email for correctness in the clientside and may also optimize the typing 
 		experience for email when a virtual keyboard is present-->
 
-		<p><label for="firstName">First name</label> <input type="text" name="person[first_name]" id="firstName"></p>
-		<!-- <p><label for="firstName">First name</label> <input type="text" name="person[first_name]" id="firstName" required autocomplete="fname"></p> -->
-		<p><label for="lastName">Last name</label> <input type="text" name="person[last_name]" id="lastName"></p>
-		<!-- <p><label for="lastName">Last name</label> <input type="text" name="person[last_name]" id="lastName" required autocomplete="lname"></p> -->
-		<p><label for="email">Email</label> <input type="text" name="person[email]" id="email"></p>
-		<!-- <p><label for="email">Email</label> <input type="email" name="person[email]" id="email" required autocomplete="email"></p> -->
+		<!-- <p><label for="firstName">First name</label> <input type="text" name="person[first_name]" id="firstName"></p> -->
+		<p><label for="firstName">First name</label> <input type="text" name="person[first_name]" id="firstName" required autocomplete="fname"></p>
+		<!-- <p><label for="lastName">Last name</label> <input type="text" name="person[last_name]" id="lastName"></p> -->
+		<p><label for="lastName">Last name</label> <input type="text" name="person[last_name]" id="lastName" required autocomplete="lname"></p>
+		<!-- <p><label for="email">Email</label> <input type="text" name="person[email]" id="email"></p> -->
+		<p><label for="email">Email</label> <input type="email" name="person[email]" id="email" required autocomplete="email"></p>
 		<p><input type="submit" value="Submit" /></p>
 	</form>
 
